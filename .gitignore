@@ -1,0 +1,11 @@
+*.rpyc
+*.rpymc
+*.0rpy
+**/log.txt
+**/errors.txt
+**/traceback.txt
+**/saves/**
+**/cache/**
+**/.DS_Store
+*.zip
+*.rar

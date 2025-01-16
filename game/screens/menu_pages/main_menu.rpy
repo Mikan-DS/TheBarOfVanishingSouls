@@ -118,7 +118,7 @@ screen main_menu():
                 add "gui/main_menu/buttons/start.png":
                     yalign .5
                     xalign .0
-            action NullAction()
+            action Start()
 
         button:
             at button_slide
@@ -129,7 +129,7 @@ screen main_menu():
                 add "gui/main_menu/buttons/load.png":
                     yalign .5
                     xalign .0
-            action NullAction()
+            action ShowMenu("load")
 
         button:
             at button_slide
@@ -140,7 +140,7 @@ screen main_menu():
                 add "gui/main_menu/buttons/quit.png":
                     yalign .5
                     xalign .0
-            action NullAction()
+            action Quit(confirm=False)
     vbox:
 
         spacing 400
@@ -157,7 +157,7 @@ screen main_menu():
                 add "gui/main_menu/buttons/help.png":
                     yalign .5
                     xalign 1.0
-            action NullAction()
+            action ShowMenu("help")
 
         button:
             at button_slide(-1)
@@ -169,7 +169,7 @@ screen main_menu():
                 add "gui/main_menu/buttons/preferences.png":
                     yalign .5
                     xalign 1.0
-            action NullAction()
+            action ShowMenu("preferences")
 
 
         button:
@@ -182,10 +182,6 @@ screen main_menu():
                 add "gui/main_menu/buttons/about.png":
                     yalign .5
                     xalign 1.0
-            action NullAction()
+            action ShowMenu("about")
 
-    # vbox:
-    #     align (0.5, 0.5)
-
-    #     textbutton "start" action Start()
 

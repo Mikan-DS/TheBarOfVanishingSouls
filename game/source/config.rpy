@@ -55,3 +55,8 @@ define config.after_load_transition = None
 ## Используется при входе в главное меню после того, как игра закончится.
 
 define config.end_game_transition = None
+
+
+
+define config.thumbnail_width = 768
+define config.thumbnail_height = 432

@@ -5,6 +5,7 @@ label ending_1:
     "Бармен замер. Лёгкая улыбка, казалось, застыла на его лице, будто он не поверил своим ушам."
     voice voice_ending_1_player_123
     "В воздухе повисло напряжение, густое и липкое. Бармен медленно опустил кофейник на стойку и повернулся ко мне всем телом."
+    show Bartender far smirk
     voice voice_ending_1_Bartender_262
     Bartender "Простите… Что?"
     voice voice_ending_1_player_124
@@ -19,6 +20,7 @@ label ending_1:
     "Я взял со стула плащ и бросил взгляд на бармена, чувствуя, как закипает что-то странное, незримое, в воздухе между нами."
     voice voice_ending_1_player_128
     player "У меня нет времени на легенды. Я устал. Спасибо за кофе."
+    show Bartender far annoyed
     voice voice_ending_1_player_129
     "Видимо, мои слова окончательно вывели его из равновесия. Бармен шумно выдохнул, словно пытался сдержать гнев. Его улыбка исчезла, оставив на лице лишь напряжённые, острые черты."
     voice voice_ending_1_Bartender_264
@@ -29,20 +31,24 @@ label ending_1:
     player "Я могу уйти, когда захочу."
     voice voice_ending_1_Bartender_265
     Bartender "Никто… ещё… не уходил, не выслушав хотя бы одну историю. Никто!"
+    show Bartender annoyed
     voice voice_ending_1_player_132
     "Бармен больше не выглядел человеком. Его глаза вспыхнули ярко-красным огнём, а улыбка вернулась, но уже совсем другая, хищная, безумная."
     voice voice_ending_1_Bartender_266
     Bartender "Вы хотите уйти, не выслушав даже одну историю?! Это не просто бар, путник. Это - порог между мирами. Здесь уважают правила. И я… ненавижу тех, кто их нарушает!"
+    scene bg ending_1 2
     voice voice_ending_1_player_133
     "Я хотел встать, но не успел. Бармен поднял руку, в которой внезапно оказался револьвер. Тот самый, что я видел на стойке в начале вечера."
     voice voice_ending_1_player_134
     player "Что ты делаешь?"
+    scene bg ending_1 1
     voice voice_ending_1_Bartender_267
     Bartender "Прощаюсь."
     voice voice_ending_1_player_135
     "Он плавно поднял револьвер, нацелил его мне в лицо и, не отводя глаз, нажал на курок."
-    # voice voice_ending_1_player_136
+    play sound sound_shoot
     "Щёлк."
+    scene black with fade_2
     voice voice_ending_1_player_136
     "Я почувствовал мгновенный удар, а затем наступила темнота. Тишина. Пустота."
     voice voice_ending_1_player_137

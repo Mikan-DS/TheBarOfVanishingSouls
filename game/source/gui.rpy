@@ -5,6 +5,7 @@ init offset = -3
 define gui.fonts.DejaVuSans = "DejaVuSans.ttf"
 define gui.fonts.RubikDirt = "RubikDirt.ttf"
 define gui.fonts.RubikWetPaint = "RubikWetPaint.ttf"
+define gui.fonts.bezpredmetizm = "bezpredmetizm.ttf"
 
 
 # COLORS
@@ -21,8 +22,8 @@ define gui.colors.secondary = "#7c0202b6"
 
 ### In-game text
 
-define gui.text_font = gui.fonts.RubikWetPaint
-define gui.text_size = 50
+define gui.text_font = gui.fonts.bezpredmetizm
+define gui.text_size = 60
 define gui.text_line_spacing = 20
 define gui.text_color = gui.colors.primary_text
 

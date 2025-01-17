@@ -13,6 +13,7 @@ screen say(who, what):
                 xalign .1
                 yalign .17
                 size 65
+                font gui.name_text_font
 
         frame:
             xsize .8

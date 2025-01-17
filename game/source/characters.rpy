@@ -1,7 +1,7 @@
 init:
     define Bartender = Character("Бармен")
 
-    define player = Character("Вы")
+    define player = Character("Путник")
 
 
     define Gardener = Character("Садовник")

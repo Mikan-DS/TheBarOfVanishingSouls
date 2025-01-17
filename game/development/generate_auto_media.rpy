@@ -30,22 +30,6 @@ init -400 python hide:
                 media_init_code.append(parser_result)
                 continue    
         
-        # if file_name.startswith("images/scenes/") and not "/previews/" in file_name:
-        #     image_name = file_name.split("/")[-1].split(".")[0]
-        #     if "-" in image_name:
-        #         continue
-        #     if file_name.endswith(".jpg"):
-
-        #         media_init_code.append(
-        #             f'    image {image_name} = "{file_name}"'
-        #         )
-
-        #     elif file_name.endswith(".webm"):
-        #         media_init_code.append(
-        #             f'    image {image_name} = Movie(play="{file_name}", loop=True, start_image="{file_name.replace("/"+image_name, "/previews/"+image_name).replace("webm", "jpg")}")'
-        #         )
-
-
     def save_file():
         code = "\n".join(media_init_code)
         with open(config.basedir+"\\game\\source\\media_init.rpy", "r", encoding="UTF-8") as file:

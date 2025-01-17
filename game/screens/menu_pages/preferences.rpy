@@ -6,25 +6,59 @@ screen preferences():
         vbox:
             ypos 100
             spacing 30
+            
             hbox:
-                xsize 900
-                frame:
-                    text _("Отображение") align (0.5, 0.5)
-                    style "medium_frame"
+                xalign .5
+                xfill True
+                vbox:
+                    xsize 500
+                    spacing 10
+                    frame:
+                        text _("Отображение")
+                        style "medium_frame"
+                        xfill True
+
+                    frame:
+                        background Frame("gui/game_menu/slots/slot_background.png")
+                        padding (20, 20, 20, 20)
+                        xfill True
+                        vbox:
+                            textbutton _("Окно") action Preference("display", "window")
+                            textbutton _("Полный") action Preference("display", "fullscreen")
+
+                vbox:
+                    xsize 500
+                    spacing 10
+                    frame:
+                        text _("Пропуски")
+                        style "medium_frame"
+                        xfill True
+
+                    frame:
+                        background Frame("gui/game_menu/slots/slot_background.png")
+                        padding (20, 20, 20, 20)
+                        xfill True
+                        vbox:
+                            textbutton _("Весь текст") action Preference("skip", "toggle")
+                            textbutton _("После выборов") action Preference("after choices", "toggle")
+
+            # hbox:
+            #     xsize 900
+            #     frame:
+            #         text _("Отображение") align (0.5, 0.5)
+            #         style "medium_frame"
 
             
-                frame:
-                    text _("Пропуски") align (0.5, 0.5)
-                    style "medium_frame"
+            #     frame:
+            #         text _("Пропуски") align (0.5, 0.5)
+            #         style "medium_frame"
 
-            frame:
-                background Frame("gui/game_menu/slots/slot_background.png")
-                xysize (800, 200)
+            # frame:
+            #     background Frame("gui/game_menu/slots/slot_background.png")
+            #     xysize (800, 200)
 
-                hbox:
-                    vbox:
-                        textbutton _("Окно") action Preference("display", "window")
-                        textbutton _("Полный") action Preference("display", "fullscreen")
+            #     hbox:
+
 
 
             vbox:

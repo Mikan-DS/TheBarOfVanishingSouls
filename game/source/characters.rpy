@@ -1,5 +1,6 @@
 init:
     define Bartender = Character("Бармен")
+    define YoungBartender = Character("Бармен", who_color="#DDD")
 
     define player = Character("Путник")
 

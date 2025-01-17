@@ -10,7 +10,10 @@ init -400 python hide:
         
 
     def get_sprite(file_name):
-        pass
+        bg_parts = renpy.re.match(r"images/sprite/([^/]+)/([^.]+)\..+", file_name)
+        if bg_parts:
+            character_name, image_name = bg_parts.groups()
+            return f'    image {character_name} {image_name} = "{file_name}"'
     def get_music_sound(file_name):
         bg_parts = renpy.re.match(r"audio/(music|sound)/([^.]+)\..+", file_name)
         if bg_parts:

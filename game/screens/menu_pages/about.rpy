@@ -1,40 +1,33 @@
 init python:
     about_text = _("""
 
-Ресурсы:
+Эта мрачная, почти мистическая новелла с элементами безумия была создана в рамках конкурса для "Капелла Джема 2". Странные истории и не менее странные их герои уже ждут вас, мои дорогие читатели. 
 
-Вступление: Unseen Horrors - Kevin MacLeod (авторское право - Creative Commons CC BY 3.0) -
-https://www.chosic.com/download-audio/27249/
-Звук открывания двери: w.forster.1@gmail.com - https://opengameart.org/content/creaky-door-
-hinge-spooky
-Звук перетасовывания карт (в игре обрезанная версия от оригинала): Kenney -
-https://opengameart.org/content/54-casino-sound-effects-cards-dice-chips
-Звук дождя из вступления (в игре немного видоизменён): WuxiaScrub -
-https://opengameart.org/content/rain-long-thunder
-Щелчок пистолета (слегка обрезана дорожка):
-Elmarp - https://freesound.org/people/Elmarp/sounds/367000/
-Звук выстрела (частично обрезан): newlocknew -
-https://freesound.org/people/newlocknew/sounds/713017/
-Наливание бренди: Mish7913 - https://freesound.org/people/Mish7913/sounds/741348/
-Один из треков в бар: Zubaida by Breuss Arrizabalaga Quintet
-https://freemusicarchive.org/music/Breuss_Arrizabalaga_Quintet/Nfamoudou-Boudougou/03_-
-_breuss_arrizabalaga_quintet_-_zubaida/ (пока под вопросом)
-Aberration by1st Contact (CC BY-SA) -
-https://freemusicarchive.org/music/1st-contact/single/aberration/
-Dances and Dames by Kevin MacLeod -
-https://freemusicarchive.org/music/Kevin_MacLeod/Jazz_Sampler/Dances_and_Dames_1428/
-I Knew a Guy by Kevin MacLeod -
-https://freemusicarchive.org/music/Kevin_MacLeod/Jazz_Sampler/I_Knew_a_Guy/
-Faster Does It by Kevin MacLeod -
-https://freemusicarchive.org/music/Kevin_MacLeod/Jazz_Sampler/Faster_Does_It/
-Off to Osaka by Kevin MacLeod -
-https://freemusicarchive.org/music/Kevin_MacLeod/Jazz_Sampler/Off_to_Osaka_1502/
-Dances and Dames by Kevin MacLeod -
-https://freemusicarchive.org/music/Kevin_MacLeod/Jazz_Sampler/Dances_and_Dames/
-At the End of the Show byJesse Spillane - https://freemusicarchive.org/music/Jesse_Spillane/the-
-meeting-place/at-the-end-of-the-show/
+Состав команды:
 
+Сценарист: Денис Сапунов
+Художник: Дарья Мелихова
+Программисты: Дядюшка Сэм (Mikan) и Артём Колючий
+Команда озвучки Sunset Voice:
+Айлин: Лилия Пак
+Бармен-рассказчик: Галкин Николай
+Садовник: Dima Matveichuk
+Крупье: Александра Чернова
+Джеймс: Саша Кауфелд
+Ричард: Кирилл Балашов
+Молодой бармен: Даниил Кушнеров
+Игрок: Иван Хроменков
 
+Материалы используемые для музыкального и звукового сопровождения: 
+Unseen Horrors - Kevin MacLeod
+Zubaida by Breuss Arrizabalaga Quintet
+Aberration by 1st Contact
+Dances and Dames by Kevin MacLeod
+I Knew a Guy by Kevin MacLeo
+Faster Does It by Kevin MacLeod
+Off to Osaka by Kevin MacLeod
+Dances and Dames by Kevin MacLeod
+At the End of the Show byJesse Spillane
 
     """).strip()
 

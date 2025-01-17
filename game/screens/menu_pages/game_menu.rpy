@@ -1,5 +1,5 @@
 screen game_menu(title):
-
+    # add Solid("#000")
     frame:
         align (0.5, 0.5)
         xysize (3689, 2017)

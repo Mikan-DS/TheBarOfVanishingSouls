@@ -35,3 +35,8 @@ define config.end_game_transition = None
 define config.thumbnail_width = 768
 define config.thumbnail_height = 432
 
+define config.window = "show"
+
+
+define config.window_show_transition = Dissolve(.2)
+define config.window_hide_transition = Dissolve(.2)

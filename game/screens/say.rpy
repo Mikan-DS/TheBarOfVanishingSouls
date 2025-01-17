@@ -23,3 +23,24 @@ screen say(who, what):
                 id "what"
 
 
+screen choice(items):
+    style_prefix "choice"
+
+    vbox:
+        spacing 30
+        xsize 900
+        align (0.5, 0.5)
+        for i in items:
+            button:
+                at hover_brightness(0,.1)
+                xfill True
+                background Frame("gui/game_menu/misc/medium_frame.png", 20, 20, 20, 20)
+                text i.caption xalign .5
+                padding (20, 50, 20, 20)
+                action i.action
+            # textbutton i.caption:
+            #     background Frame("gui/game_menu/misc/medium_frame.png", 20, 20)
+            #     action i.action
+            #     xfill True
+            #     text_textalign .5
+            #     align (0.5, 0.5)

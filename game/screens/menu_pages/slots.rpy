@@ -25,8 +25,9 @@ screen file_slots(title):
             frame:
                 xalign .5
                 style "medium_frame"
+                padding (40, 30, 40, 30)
                 hbox:
-                    align (0.5, 0.5)
+                    xalign .5
                     spacing 40
                     
                     textbutton _("<") action FilePagePrevious()

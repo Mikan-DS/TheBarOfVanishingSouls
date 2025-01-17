@@ -54,7 +54,7 @@ screen game_menu(title):
                 frame:
                     add "gui/game_menu/misc/back_frame.png"
                     text _("Назад"):
-                        yalign .5
+                        yalign .8
                         xanchor 1.0
                         xpos .8
 
@@ -71,7 +71,7 @@ screen game_menu_framed(title):
         frame:
             background "gui/game_menu/misc/large_frame.png"
             xysize (2372, 1314)
-            padding (50, 50)
+            padding (100, 100)
             align (0.5, 0.5)
 
             transclude

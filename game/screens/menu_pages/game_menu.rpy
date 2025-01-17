@@ -54,7 +54,9 @@ screen game_menu(title):
                 frame:
                     add "gui/game_menu/misc/back_frame.png"
                     text _("Назад"):
-                        align (0.5, 0.5)
+                        yalign .5
+                        xanchor 1.0
+                        xpos .8
 
                 action Return()
 

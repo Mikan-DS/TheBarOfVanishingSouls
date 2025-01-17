@@ -12,6 +12,7 @@ screen say(who, what):
             text who id "who":
                 xalign .1
                 yalign .17
+                size 65
 
         frame:
             xsize .8

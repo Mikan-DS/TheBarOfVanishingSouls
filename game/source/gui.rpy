@@ -3,6 +3,7 @@ init offset = -3
 # FONTS
 
 define gui.fonts.DejaVuSans = "DejaVuSans.ttf"
+define gui.fonts.RubikDirt = "RubikDirt.ttf"
 
 
 # COLORS
@@ -19,15 +20,15 @@ define gui.colors.secondary = "#7c0202b6"
 
 ### In-game text
 
-define gui.text_font = gui.fonts.DejaVuSans
-define gui.text_size = 33
+define gui.text_font = gui.fonts.RubikDirt
+define gui.text_size = 50
 define gui.text_color = gui.colors.primary_text
 
-define gui.name_text_font = gui.fonts.DejaVuSans
+define gui.name_text_font = gui.fonts.RubikDirt
 
 ### Screens default text
-define gui.interface_text_font = gui.fonts.DejaVuSans
-define gui.interface_text_size = 33
+define gui.interface_text_font = gui.fonts.RubikDirt
+define gui.interface_text_size = 40
 define gui.interface_text_color = gui.colors.primary_text
 
 ### Buttons text

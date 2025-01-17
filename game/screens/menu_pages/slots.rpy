@@ -32,10 +32,10 @@ screen file_slots(title):
                     textbutton _("<") action FilePagePrevious()
 
                     if config.has_autosave:
-                        textbutton _("A") action FilePage("auto")
+                        textbutton _("А") action FilePage("auto")
 
                     if config.has_quicksave:
-                        textbutton _("Q") action FilePage("quick")
+                        textbutton _("Б") action FilePage("quick")
 
                     for page in range(1, 10):
                         textbutton "[page]" action FilePage(page)
@@ -58,5 +58,6 @@ screen file_slots(title):
 
                         text FileTime(slot, format=_("%A, %B %d %Y, %H:%M")):
                             xalign .5
+                            size 38
 
                         key "save_delete" action FileDelete(slot)

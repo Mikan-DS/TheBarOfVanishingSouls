@@ -34,3 +34,4 @@ define config.end_game_transition = None
 
 define config.thumbnail_width = 768
 define config.thumbnail_height = 432
+

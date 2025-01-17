@@ -9,7 +9,7 @@ style button_text is gui_text:
     properties gui.text_properties("button")
 
 style label_text is gui_text:
-    size 36
+    size 90
 
 
 style medium_frame:

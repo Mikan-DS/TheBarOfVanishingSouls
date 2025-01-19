@@ -27,7 +27,7 @@ define config.intra_transition = dissolve
 
 define config.after_load_transition = None
 
-
+define config.window_icon = "gui/window_icon.png"
 
 define config.end_game_transition = None
 
@@ -40,3 +40,7 @@ define config.window = "show"
 
 define config.window_show_transition = Dissolve(.2)
 define config.window_hide_transition = Dissolve(.2)
+
+# default preferences.volume.voice = 0.0
+
+define config.main_menu_music = music_Kevin_MacLeod_Faster_Does_It

@@ -1,6 +1,8 @@
 label after_story_1:
     scene bg common bar
     show Bartender smile
+    play music music_Kevin_MacLeod_Dances_and_Dames fadein 3 fadeout 3
+
 
     voice voice_after_story_1_Bartender_68
     Bartender "Вот такая вот история, сэр. Сад до сих пор стоит. И говорят, если всматриваться в него слишком долго, можно услышать шёпот тех, кто исчез, оставив после себя лишь алые цветы."
@@ -66,10 +68,12 @@ label after_story_1:
     "Он снял печать с горлышка, и в воздухе мгновенно разнёсся странный аромат — сладкий, терпкий, с лёгкой ноткой роз. Я почувствовал, как этот запах пробрался в мои лёгкие, обволакивая их тёплым шёлковым покрывалом."
     voice voice_after_story_1_Bartender_76
     Bartender "Этот напиток лучше пить медленно. Смаковать. Он раскрывается не сразу."
+    scene bg after_story_1 brandy with fade
     voice voice_after_story_1_player_57
     "Я поднял бокал. Алый бренди выглядел как кровь. Густая, плотная жидкость переливалась в свете ламп, создавая странные отблески на стенах бара. Я поднёс его к губам, но замешкался. Почему-то в голове мелькнула мысль, что это не просто алкоголь."
     voice voice_after_story_1_player_58
     player "Что это за штука такая?"
+    scene bg common bar
     show Bartender normal
     voice voice_after_story_1_Bartender_77
     Bartender "Скажем так, это напиток, который заставляет видеть мир немного иначе. Помогает... понять то, что скрыто за границей обыденного."
